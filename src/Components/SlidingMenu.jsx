@@ -9,6 +9,7 @@ const SlidingMenu = () => {
   const { closeMenu } = useContext(MenuContext);
   return (
     <>
+      {/* Sliding Menu for Hamburger Menu */}
       <div className=" w-[100vw] h-full top-0 left-0 absolute bg-gray-800 opacity-50"></div>
       <nav className="relative z-10 list-none pl-3 pb-60 bg-blue-50 h-full w-80">
         <div className="flex justify-between pt-10">
