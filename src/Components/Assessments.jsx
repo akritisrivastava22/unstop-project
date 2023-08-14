@@ -4,11 +4,12 @@ import { AiOutlineClockCircle } from "react-icons/Ai";
 import { BsThreeDotsVertical } from "react-icons/Bs";
 import { RxDividerVertical } from "react-icons/Rx";
 import { AiOutlineLink } from "react-icons/Ai";
+
 const Assessments = () => {
   return (
     <>
       {/* New Assessment Box */}
-      <div className="bg-slate-100  flex flex-col items-center border-2 rounded-lg py-7 mx-5 border-dotted mt-8">
+      <div className="bg-slate-100  flex flex-col items-center border-2 rounded-lg py-7 mx-5 border-dotted mt-6">
         <div className="text-3xl rounded-full bg-white py-3 px-3">
           <AiOutlinePlus />
         </div>
