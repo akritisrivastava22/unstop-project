@@ -1,11 +1,8 @@
 import { AiOutlinePlus } from "react-icons/Ai";
-import { RxEnvelopeClosed } from "react-icons/Rx";
-import { AiOutlineClockCircle } from "react-icons/Ai";
-import { BsThreeDotsVertical } from "react-icons/Bs";
-import { RxDividerVertical } from "react-icons/Rx";
-import { AiOutlineLink } from "react-icons/Ai";
 import NewAssessmentModal from "./NewAssessmentModal";
 import { useState } from "react";
+import AssessmentCard from "./AssesmentCard";
+import { IoMdAdd } from "react-icons/Io";
 
 const Assessments = () => {
   const [assessmentModal, setAssessmentModal] = useState(false);
@@ -31,6 +28,64 @@ const Assessments = () => {
           closeModal={() => setAssessmentModal(false)}
         />
       )}
+      <div className="mt-4 pb-8 grid lg:grid-cols-3 md:gap-6 lg:gap-10 gap-4 items-center mx-4">
+        <AssessmentCard
+          assessment_name={"Math Assessment"}
+          assessment_date={"20 Apr 23"}
+          duration={"00"}
+          questions={"00"}
+        />
+        <AssessmentCard
+          assessment_name={"Math Assessment"}
+          assessment_date={"20 Apr 23"}
+          duration={"00"}
+          questions={"00"}
+          no_of_registrations={"+324"}
+        />
+        <div className="grid gap-4 md:hidden">
+          <AssessmentCard
+            assessment_name={"Math Assessment"}
+            assessment_date={"20 Apr 23"}
+            duration={"00"}
+            questions={"00"}
+            no_of_registrations={"+324"}
+          />
+          <AssessmentCard
+            assessment_name={"Math Assessment"}
+            assessment_date={"20 Apr 23"}
+            duration={"00"}
+            questions={"00"}
+            no_of_registrations={"+324"}
+          />
+          <AssessmentCard
+            assessment_name={"Math Assessment"}
+            assessment_date={"20 Apr 23"}
+            duration={"00"}
+            questions={"00"}
+            no_of_registrations={"+324"}
+          />
+          <AssessmentCard
+            assessment_name={"Math Assessment"}
+            assessment_date={"20 Apr 23"}
+            duration={"00"}
+            questions={"00"}
+            no_of_registrations={"+324"}
+          />
+          <AssessmentCard
+            assessment_name={"Math Assessment"}
+            assessment_date={"20 Apr 23"}
+            duration={"00"}
+            questions={"00"}
+            no_of_registrations={"+324,4090"}
+          />
+        </div>
+      </div>
+      <div
+        onClick={() => setAssessmentModal(true)}
+        className="fixed bottom-4 right-4 z-30 text-3xl bg-blue-400 rounded-full p-2 text-white"
+      >
+        <IoMdAdd />
+      </div>
     </>
   );
 };
