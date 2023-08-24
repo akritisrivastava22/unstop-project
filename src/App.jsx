@@ -1,13 +1,17 @@
 import Nav from "./Components/nav";
 import Assessments from "./Components/Assessments";
 import Statistics from "./Components/Statistics";
+import SlidingMenu from "./Components/SlidingMenu";
 function App() {
   return (
-    <>
-      <Nav />
-      <Statistics />
-      <Assessments />
-    </>
+    <div className="lg:flex">
+      <SlidingMenu />
+      <div>
+        <Nav />
+        <Statistics />
+        <Assessments />
+      </div>
+    </div>
   );
 }
 

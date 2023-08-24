@@ -1,5 +1,6 @@
 import { HiOutlineMenuAlt2 } from "react-icons/Hi";
 import { useState, useContext } from "react";
+import SlidingMenu from "./SlidingMenu";
 
 import { MenuContext } from "react-flexible-sliding-menu";
 const Nav = () => {
@@ -10,12 +11,14 @@ const Nav = () => {
       {/* Nav Bar  */}
       <nav className="list-none flex gap-3 ml-3 mt-3 ">
         <li
-          className="text-3xl bg-blue-50 rounded-full w-10 h-10 p-1  "
+          className="text-3xl bg-blue-50 rounded-full w-10 h-10 p-1 lg:hidden"
           onClick={toggleMenu}
         >
           <HiOutlineMenuAlt2 />
         </li>
-        <li className="text-xl font-semibold mt-2">Assessment</li>
+        <li className="text-xl font-semibold mt-2 md:w-full lg:max-h-[600px]">
+          Assessment
+        </li>
       </nav>
 
       <div className="flex justify-between text-lg mt-5 mx-4 font-medium">
