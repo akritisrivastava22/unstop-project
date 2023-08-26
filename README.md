@@ -1,8 +1,11 @@
-# React + Vite
+# Unstop Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the README file for the Unstop Frontend Project! This project showcases a frontend application built using React JS, Tailwind and HTML for Unstop.
+The Unstop Frontend Project is a React.js application designed to showcase the frontend development skills and creativity of its developers.
+The project demonstrates the use of various React components, state management, and responsive design principles.
 
-Currently, two official plugins are available:
+### Checkout the live website [here](https://frontend-assessment-clone.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How the website looks like
+
+![desktop](./unstop-project-gif.gif.gif)
