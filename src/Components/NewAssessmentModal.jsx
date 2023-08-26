@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 import SkillButton from "./SkillName";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { RxCross2 } from "react-icons/Rx";
+import { RxCross2 } from "react-icons/rx";
 
 const NewAssessmentModal = ({ closeModal }) => {
   const [showModal, setShowModal] = useState(false);

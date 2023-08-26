@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { MenuContext } from "react-flexible-sliding-menu";
-import { LuLayoutDashboard } from "react-icons/Lu";
-import { BsClipboardCheck } from "react-icons/Bs";
-import { MdOutlineLiveHelp } from "react-icons/Md";
-import { PiLinkFill } from "react-icons/Pi";
+import { LuLayoutDashboard } from "react-icons/lu";
+import { BsClipboardCheck } from "react-icons/bs";
+import { MdOutlineLiveHelp } from "react-icons/md";
+import { PiLinkFill } from "react-icons/pi";
 
 const SlidingMenu = () => {
   const { closeMenu } = useContext(MenuContext);

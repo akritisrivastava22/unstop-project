@@ -1,8 +1,8 @@
-import { AiOutlinePlus } from "react-icons/Ai";
+import { AiOutlinePlus } from "react-icons/ai";
 import NewAssessmentModal from "./NewAssessmentModal";
 import { useState } from "react";
 import AssessmentCard from "./AssesmentCard";
-import { IoMdAdd } from "react-icons/Io";
+import { IoMdAdd } from "react-icons/io";
 
 const Assessments = () => {
   const [assessmentModal, setAssessmentModal] = useState(false);

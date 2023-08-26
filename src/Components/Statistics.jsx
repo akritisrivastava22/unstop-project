@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
-import { FaSearch, FaFilter } from "react-icons/Fa";
-import { BiSolidBarChartAlt2 } from "react-icons/Bi";
-import { BsViewStacked, BsPeopleFill, BsGlobe } from "react-icons/Bs";
-import { IoMdLink } from "react-icons/Io";
+import { FaSearch, FaFilter } from "react-icons/fa";
+import { BiSolidBarChartAlt2 } from "react-icons/bi";
+import { BsViewStacked, BsPeopleFill, BsGlobe } from "react-icons/bs";
+import { IoMdLink } from "react-icons/io";
 
 const Menu = () => {
   const [showStats, setShowStats] = useState(false);

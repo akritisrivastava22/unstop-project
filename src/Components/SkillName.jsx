@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { RxCross2 } from "react-icons/Rx";
+import { RxCross2 } from "react-icons/rx";
 
 const SkillButton = ({ skillName }) => {
   return (

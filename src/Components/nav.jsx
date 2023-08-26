@@ -1,6 +1,5 @@
-import { HiOutlineMenuAlt2 } from "react-icons/Hi";
-import { useState, useContext } from "react";
-import SlidingMenu from "./SlidingMenu";
+import { HiOutlineMenuAlt2 } from "react-icons/hi";
+import { useContext } from "react";
 
 import { MenuContext } from "react-flexible-sliding-menu";
 const Nav = () => {
