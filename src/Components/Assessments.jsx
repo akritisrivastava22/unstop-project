@@ -16,10 +16,10 @@ const Assessments = () => {
           closeModal={() => setAssessmentModal(false)}
         />
       )}
-      <div className="mt-4 pb-8 grid lg:grid-cols-3 md:gap-6 lg:gap-10 gap-4 items-center mx-4">
+      <div className="pb-8 grid lg:grid-cols-3 md:gap-6 lg:gap-10 gap-4 items-center mx-4">
         <div
           onClick={() => setAssessmentModal(true)}
-          className="bg-slate-100  flex flex-col items-center border-2 rounded-lg py-7 mx-5 lg:mx-0 lg:py-10 lg:mb-4 border-dotted mt-6"
+          className="bg-slate-100 flex flex-col items-center border-2 rounded-lg py-4 mx-1 lg:mx-0 lg:py-10 lg:mb-4 border-dotted lg:mt-6"
         >
           <div className="text-3xl rounded-full bg-white py-3 px-3">
             <AiOutlinePlus />

@@ -10,8 +10,8 @@ const SlidingMenu = () => {
   return (
     <>
       {/* Sliding Menu for Hamburger Menu */}
-      <div className="w-[100vw] lg:hidden h-full top-0 left-0 absolute bg-gray-800 opacity-50"></div>
-      <nav className="md:bg-white z-10 list-none pl-3  md:px-3 pb-60 bg-blue-50 h-full w-80 lg:h-[100vh] md:max-w-[140px]">
+      <div className="w-[100vw] lg:hidden -z-10 h-full top-0 left-0 absolute bg-gray-800 opacity-50"></div>
+      <nav className="md:bg-white z-50 list-none pl-3  md:px-3 pb-60 bg-blue-50 h-full w-80 lg:h-[100vh] md:max-w-[140px]">
         <div className="flex md:hidden justify-between pt-10">
           <li className="text-lg ">Menu</li>
           <button onClick={closeMenu} className="float-right mr-2">

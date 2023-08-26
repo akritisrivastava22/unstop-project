@@ -4,8 +4,10 @@ import Statistics from "./Components/Statistics";
 import SlidingMenu from "./Components/SlidingMenu";
 function App() {
   return (
-    <div className="lg:flex   bg-gray-100">
-      <SlidingMenu />
+    <div className="lg:flex items-start justify-start  md:bg-gray-100">
+      <div className="hidden md:block md:bg-white">
+        <SlidingMenu />
+      </div>
       <div className="bg-white md:mx-4 md:rounded-xl md:max-h-[650px]">
         <Nav />
         <Statistics />
