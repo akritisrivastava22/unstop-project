@@ -4,7 +4,7 @@ import {
   PiClockLight,
   PiDotsThreeVerticalBold,
   PiLinkSimpleBold,
-} from "react-icons/pi";
+} from "react-icons/Pi";
 
 const AssessmentCard = ({
   assessment_name,

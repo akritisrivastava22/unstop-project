@@ -33,9 +33,9 @@ const Nav = () => {
         <div className="text-blue-400 ">My Assessments</div>
         <div>Unstop Assessments</div>
       </div>
-      <div class="md:hidden w-full h-1 mt-2 bg-slate-200 rounded-full">
+      <div className="md:hidden w-full h-1 mt-2 bg-slate-200 rounded-full">
         <div
-          class="bg-blue-400 h-full rounded-full "
+          className="bg-blue-400 h-full rounded-full "
           style={{ width: "46%" }}
         ></div>
       </div>
